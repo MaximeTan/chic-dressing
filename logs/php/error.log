@@ -1,0 +1,170 @@
+[01-Aug-2023 08:24:19 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: L’évènement planifié n’existe pas., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[01-Aug-2023 08:24:29 UTC] Cron reschedule event error for hook: woocommerce_geoip_updater, Error code: invalid_schedule, Error message: L’évènement planifié n’existe pas., Data: {"schedule":"fifteendays","args":[],"interval":1296000}
+[01-Aug-2023 08:24:31 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php:161
+Stack trace:
+#0 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php(161): implode(Array, '|')
+#1 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wysija-newsletters\core\base.php(820): WYSIJA_help_file->clear()
+#2 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(184): WYSIJA::croned_daily()
+#3 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(120): WYSIJA_help_cron->run_scheduled_task('daily')
+#4 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(56): WYSIJA_help_cron->check_scheduled_task(Array, 'daily')
+#5 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wysija-newsletters\core\base.php(1525): WYSIJA_help_cron->run()
+#6 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(308): init_wysija_cron('')
+#7 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\maxim\Local Sites\projet-7\app\public\wp-settings.php(623): do_action('init')
+#10 C:\Users\maxim\Local Sites\projet-7\app\public\wp-config.php(103): require_once('C:\\Users\\maxim\\...')
+#11 C:\Users\maxim\Local Sites\projet-7\app\public\wp-load.php(50): require_once('C:\\Users\\maxim\\...')
+#12 C:\Users\maxim\Local Sites\projet-7\app\public\wp-cron.php(46): require_once('C:\\Users\\maxim\\...')
+#13 {main}
+  thrown in C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php on line 161
+[06-Aug-2023 08:56:51 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php:161
+Stack trace:
+#0 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php(161): implode(Array, '|')
+#1 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wysija-newsletters\core\base.php(820): WYSIJA_help_file->clear()
+#2 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(184): WYSIJA::croned_daily()
+#3 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(120): WYSIJA_help_cron->run_scheduled_task('daily')
+#4 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(56): WYSIJA_help_cron->check_scheduled_task(Array, 'daily')
+#5 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wysija-newsletters\core\base.php(1525): WYSIJA_help_cron->run()
+#6 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(308): init_wysija_cron('')
+#7 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\maxim\Local Sites\projet-7\app\public\wp-settings.php(623): do_action('init')
+#10 C:\Users\maxim\Local Sites\projet-7\app\public\wp-config.php(103): require_once('C:\\Users\\maxim\\...')
+#11 C:\Users\maxim\Local Sites\projet-7\app\public\wp-load.php(50): require_once('C:\\Users\\maxim\\...')
+#12 C:\Users\maxim\Local Sites\projet-7\app\public\wp-cron.php(46): require_once('C:\\Users\\maxim\\...')
+#13 {main}
+  thrown in C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php on line 161
+[06-Aug-2023 14:58:15 UTC] cache expiration time - 1688741895
+[06-Aug-2023 14:58:15 UTC] checking if cache has expired - 1691333709
+[06-Aug-2023 14:58:15 UTC] cache expiration time - 1688741895
+[06-Aug-2023 14:58:15 UTC] checking if cache has expired - 1691333728
+[06-Aug-2023 14:58:15 UTC] cache expiration time - 1688741895
+[06-Aug-2023 14:58:15 UTC] checking if cache has expired - 1691333753
+[06-Aug-2023 14:58:15 UTC] cache expiration time - 1688741895
+[06-Aug-2023 14:58:15 UTC] checking if cache has expired - 1691333849
+[06-Aug-2023 14:58:15 UTC] cache expiration time - 1688741895
+[06-Aug-2023 14:58:15 UTC] checking if cache has expired - 1691333853
+[06-Aug-2023 14:58:15 UTC] cache expiration time - 1688741895
+[06-Aug-2023 14:58:15 UTC] checking if cache has expired - 1691333877
+[06-Aug-2023 14:58:15 UTC] cache expiration time - 1688741895
+[06-Aug-2023 14:58:15 UTC] checking if cache has expired - 1691333879
+[06-Aug-2023 14:58:15 UTC] cache expiration time - 1688741895
+[06-Aug-2023 14:58:15 UTC] checking if cache has expired - 1691333895
+[06-Aug-2023 14:58:18 UTC] cache expiration time - 1688741898
+[06-Aug-2023 14:58:18 UTC] checking if cache has expired - 1691333709
+[06-Aug-2023 14:58:18 UTC] cache expiration time - 1688741898
+[06-Aug-2023 14:58:18 UTC] checking if cache has expired - 1691333728
+[06-Aug-2023 14:58:18 UTC] cache expiration time - 1688741898
+[06-Aug-2023 14:58:18 UTC] checking if cache has expired - 1691333753
+[06-Aug-2023 14:58:18 UTC] cache expiration time - 1688741898
+[06-Aug-2023 14:58:18 UTC] checking if cache has expired - 1691333849
+[06-Aug-2023 14:58:18 UTC] cache expiration time - 1688741898
+[06-Aug-2023 14:58:18 UTC] checking if cache has expired - 1691333853
+[06-Aug-2023 14:58:18 UTC] cache expiration time - 1688741898
+[06-Aug-2023 14:58:18 UTC] checking if cache has expired - 1691333877
+[06-Aug-2023 14:58:18 UTC] cache expiration time - 1688741898
+[06-Aug-2023 14:58:18 UTC] checking if cache has expired - 1691333879
+[06-Aug-2023 14:58:18 UTC] cache expiration time - 1688741898
+[06-Aug-2023 14:58:18 UTC] checking if cache has expired - 1691333895
+[06-Aug-2023 14:58:18 UTC] cache expiration time - 1688741898
+[06-Aug-2023 14:58:18 UTC] checking if cache has expired - 1691333898
+[06-Aug-2023 15:00:01 UTC] cache expiration time - 1688742001
+[06-Aug-2023 15:00:01 UTC] checking if cache has expired - 1691333709
+[06-Aug-2023 15:00:01 UTC] cache expiration time - 1688742001
+[06-Aug-2023 15:00:01 UTC] checking if cache has expired - 1691333728
+[06-Aug-2023 15:00:01 UTC] cache expiration time - 1688742001
+[06-Aug-2023 15:00:01 UTC] checking if cache has expired - 1691333753
+[06-Aug-2023 15:00:01 UTC] cache expiration time - 1688742001
+[06-Aug-2023 15:00:01 UTC] checking if cache has expired - 1691333849
+[06-Aug-2023 15:00:01 UTC] cache expiration time - 1688742001
+[06-Aug-2023 15:00:01 UTC] checking if cache has expired - 1691333853
+[06-Aug-2023 15:00:01 UTC] cache expiration time - 1688742001
+[06-Aug-2023 15:00:01 UTC] checking if cache has expired - 1691333877
+[06-Aug-2023 15:00:01 UTC] cache expiration time - 1688742001
+[06-Aug-2023 15:00:01 UTC] checking if cache has expired - 1691333879
+[06-Aug-2023 15:00:01 UTC] cache expiration time - 1688742001
+[06-Aug-2023 15:00:01 UTC] checking if cache has expired - 1691333895
+[06-Aug-2023 15:00:01 UTC] cache expiration time - 1688742001
+[06-Aug-2023 15:00:01 UTC] checking if cache has expired - 1691333898
+[06-Aug-2023 15:00:01 UTC] cache expiration time - 1688742001
+[06-Aug-2023 15:00:01 UTC] checking if cache has expired - 1691333906
+[06-Aug-2023 15:00:01 UTC] cache expiration time - 1688742001
+[06-Aug-2023 15:00:01 UTC] checking if cache has expired - 1691334001
+[06-Aug-2023 15:00:11 UTC] cache expiration time - 1688742011
+[06-Aug-2023 15:00:11 UTC] checking if cache has expired - 1691333709
+[06-Aug-2023 15:00:11 UTC] cache expiration time - 1688742011
+[06-Aug-2023 15:00:11 UTC] checking if cache has expired - 1691333728
+[06-Aug-2023 15:00:11 UTC] cache expiration time - 1688742011
+[06-Aug-2023 15:00:11 UTC] checking if cache has expired - 1691333753
+[06-Aug-2023 15:00:11 UTC] cache expiration time - 1688742011
+[06-Aug-2023 15:00:11 UTC] checking if cache has expired - 1691333849
+[06-Aug-2023 15:00:11 UTC] cache expiration time - 1688742011
+[06-Aug-2023 15:00:11 UTC] checking if cache has expired - 1691333853
+[06-Aug-2023 15:00:11 UTC] cache expiration time - 1688742011
+[06-Aug-2023 15:00:11 UTC] checking if cache has expired - 1691333877
+[06-Aug-2023 15:00:11 UTC] cache expiration time - 1688742011
+[06-Aug-2023 15:00:11 UTC] checking if cache has expired - 1691333879
+[06-Aug-2023 15:00:11 UTC] cache expiration time - 1688742011
+[06-Aug-2023 15:00:11 UTC] checking if cache has expired - 1691333895
+[06-Aug-2023 15:00:11 UTC] cache expiration time - 1688742011
+[06-Aug-2023 15:00:11 UTC] checking if cache has expired - 1691333898
+[06-Aug-2023 15:00:11 UTC] cache expiration time - 1688742011
+[06-Aug-2023 15:00:11 UTC] checking if cache has expired - 1691333906
+[06-Aug-2023 15:00:11 UTC] cache expiration time - 1688742011
+[06-Aug-2023 15:00:11 UTC] checking if cache has expired - 1691334001
+[06-Aug-2023 15:00:11 UTC] cache expiration time - 1688742011
+[06-Aug-2023 15:00:11 UTC] checking if cache has expired - 1691334011
+[06-Aug-2023 15:00:15 UTC] cache expiration time - 1688742015
+[06-Aug-2023 15:00:15 UTC] checking if cache has expired - 1691333709
+[06-Aug-2023 15:00:15 UTC] cache expiration time - 1688742015
+[06-Aug-2023 15:00:15 UTC] checking if cache has expired - 1691333728
+[06-Aug-2023 15:00:15 UTC] cache expiration time - 1688742015
+[06-Aug-2023 15:00:15 UTC] checking if cache has expired - 1691333753
+[06-Aug-2023 15:00:15 UTC] cache expiration time - 1688742015
+[06-Aug-2023 15:00:15 UTC] checking if cache has expired - 1691333849
+[06-Aug-2023 15:00:15 UTC] cache expiration time - 1688742015
+[06-Aug-2023 15:00:15 UTC] checking if cache has expired - 1691333853
+[06-Aug-2023 15:00:15 UTC] cache expiration time - 1688742015
+[06-Aug-2023 15:00:15 UTC] checking if cache has expired - 1691333877
+[06-Aug-2023 15:00:15 UTC] cache expiration time - 1688742015
+[06-Aug-2023 15:00:15 UTC] checking if cache has expired - 1691333879
+[06-Aug-2023 15:00:15 UTC] cache expiration time - 1688742015
+[06-Aug-2023 15:00:15 UTC] checking if cache has expired - 1691333895
+[06-Aug-2023 15:00:15 UTC] cache expiration time - 1688742015
+[06-Aug-2023 15:00:15 UTC] checking if cache has expired - 1691333898
+[06-Aug-2023 15:00:15 UTC] cache expiration time - 1688742015
+[06-Aug-2023 15:00:15 UTC] checking if cache has expired - 1691333906
+[06-Aug-2023 15:00:15 UTC] cache expiration time - 1688742015
+[06-Aug-2023 15:00:15 UTC] checking if cache has expired - 1691334001
+[06-Aug-2023 15:00:15 UTC] cache expiration time - 1688742015
+[06-Aug-2023 15:00:15 UTC] checking if cache has expired - 1691334011
+[06-Aug-2023 15:00:15 UTC] cache expiration time - 1688742015
+[06-Aug-2023 15:00:15 UTC] checking if cache has expired - 1691334015
+[06-Aug-2023 22:47:06 UTC] cache expiration time - 1688770026
+[06-Aug-2023 22:47:06 UTC] checking if cache has expired - 1691333709
+[06-Aug-2023 22:47:06 UTC] cache expiration time - 1688770026
+[06-Aug-2023 22:47:06 UTC] checking if cache has expired - 1691333728
+[06-Aug-2023 22:47:06 UTC] cache expiration time - 1688770026
+[06-Aug-2023 22:47:06 UTC] checking if cache has expired - 1691333753
+[06-Aug-2023 22:47:06 UTC] cache expiration time - 1688770026
+[06-Aug-2023 22:47:06 UTC] checking if cache has expired - 1691333849
+[06-Aug-2023 22:47:06 UTC] cache expiration time - 1688770026
+[06-Aug-2023 22:47:06 UTC] checking if cache has expired - 1691333853
+[06-Aug-2023 22:47:06 UTC] cache expiration time - 1688770026
+[06-Aug-2023 22:47:06 UTC] checking if cache has expired - 1691333877
+[06-Aug-2023 22:47:06 UTC] cache expiration time - 1688770026
+[06-Aug-2023 22:47:06 UTC] checking if cache has expired - 1691333879
+[06-Aug-2023 22:47:06 UTC] cache expiration time - 1688770026
+[06-Aug-2023 22:47:06 UTC] checking if cache has expired - 1691333895
+[06-Aug-2023 22:47:06 UTC] cache expiration time - 1688770026
+[06-Aug-2023 22:47:06 UTC] checking if cache has expired - 1691333898
+[06-Aug-2023 22:47:06 UTC] cache expiration time - 1688770026
+[06-Aug-2023 22:47:06 UTC] checking if cache has expired - 1691333906
+[06-Aug-2023 22:47:06 UTC] cache expiration time - 1688770026
+[06-Aug-2023 22:47:06 UTC] checking if cache has expired - 1691334001
+[06-Aug-2023 22:47:06 UTC] cache expiration time - 1688770026
+[06-Aug-2023 22:47:06 UTC] checking if cache has expired - 1691334011
+[06-Aug-2023 22:47:06 UTC] cache expiration time - 1688770026
+[06-Aug-2023 22:47:06 UTC] checking if cache has expired - 1691334015
+[06-Aug-2023 22:47:06 UTC] cache expiration time - 1688770026
+[06-Aug-2023 22:47:06 UTC] checking if cache has expired - tmp

@@ -1,0 +1,187 @@
+2023-08-06T08:56:51+00:00 CRITICAL Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php:161
+Stack trace:
+#0 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php(161): implode(Array, '|')
+#1 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wysija-newsletters\core\base.php(820): WYSIJA_help_file->clear()
+#2 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(184): WYSIJA::croned_daily()
+#3 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(120): WYSIJA_help_cron->run_scheduled_task('daily')
+#4 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wysija-newsletters\helpers\cron.php(56): WYSIJA_help_cron->check_scheduled_task(Array, 'daily')
+#5 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wysija-newsletters\core\base.php(1525): WYSIJA_help_cron->run()
+#6 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(308): init_wysija_cron('')
+#7 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\maxim\Local Sites\projet-7\app\public\wp-settings.php(623): do_action('init')
+#10 C:\Users\maxim\Local Sites\projet-7\app\public\wp-config.php(103): require_once('C:\\Users\\maxim\\...')
+#11 C:\Users\maxim\Local Sites\projet-7\app\public\wp-load.php(50): require_once('C:\\Users\\maxim\\...')
+#12 C:\Users\maxim\Local Sites\projet-7\app\public\wp-cron.php(46): require_once('C:\\Users\\maxim\\...')
+#13 {main}
+  thrown dans C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wysija-newsletters\helpers\file.php à la ligne 161
+
+2023-08-06T09:01:12+00:00 CRITICAL Uncaught ArgumentCountError: 5 arguments are required, 4 given in C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php:175
+Stack trace:
+#0 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php(175): sprintf('Depuis la derni...', 0, '0 bytes', '1.00%')
+#1 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager.php(190): Updraft_Smush_Manager_Commands->get_ui_update(Array)
+#2 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(308): Updraft_Smush_Manager->updraft_smush_ajax('')
+#3 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\maxim\Local Sites\projet-7\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_updraft...')
+#6 {main}
+  thrown dans C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php à la ligne 175
+
+2023-08-06T09:02:34+00:00 CRITICAL Uncaught ArgumentCountError: 5 arguments are required, 4 given in C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php:175
+Stack trace:
+#0 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php(175): sprintf('Depuis la derni...', 0, '0 bytes', '1.00%')
+#1 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager.php(190): Updraft_Smush_Manager_Commands->get_ui_update(Array)
+#2 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(308): Updraft_Smush_Manager->updraft_smush_ajax('')
+#3 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\maxim\Local Sites\projet-7\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_updraft...')
+#6 {main}
+  thrown dans C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php à la ligne 175
+
+2023-08-06T09:02:40+00:00 CRITICAL Uncaught ArgumentCountError: 5 arguments are required, 4 given in C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php:175
+Stack trace:
+#0 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php(175): sprintf('Depuis la derni...', 0, '0 bytes', '1.00%')
+#1 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager.php(190): Updraft_Smush_Manager_Commands->get_ui_update(Array)
+#2 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(308): Updraft_Smush_Manager->updraft_smush_ajax('')
+#3 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\maxim\Local Sites\projet-7\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_updraft...')
+#6 {main}
+  thrown dans C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php à la ligne 175
+
+2023-08-06T09:02:45+00:00 CRITICAL Uncaught ArgumentCountError: 5 arguments are required, 4 given in C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php:175
+Stack trace:
+#0 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php(175): sprintf('Depuis la derni...', 0, '0 bytes', '1.00%')
+#1 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager.php(190): Updraft_Smush_Manager_Commands->get_ui_update(Array)
+#2 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(308): Updraft_Smush_Manager->updraft_smush_ajax('')
+#3 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\maxim\Local Sites\projet-7\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_updraft...')
+#6 {main}
+  thrown dans C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php à la ligne 175
+
+2023-08-06T09:03:53+00:00 CRITICAL Uncaught ArgumentCountError: 5 arguments are required, 4 given in C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php:175
+Stack trace:
+#0 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php(175): sprintf('Depuis la derni...', 0, '0 bytes', '1.00%')
+#1 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager.php(190): Updraft_Smush_Manager_Commands->get_ui_update(Array)
+#2 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(308): Updraft_Smush_Manager->updraft_smush_ajax('')
+#3 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\maxim\Local Sites\projet-7\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_updraft...')
+#6 {main}
+  thrown dans C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php à la ligne 175
+
+2023-08-06T09:03:56+00:00 CRITICAL Uncaught ArgumentCountError: 5 arguments are required, 4 given in C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php:175
+Stack trace:
+#0 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php(175): sprintf('Depuis la derni...', 0, '0 bytes', '1.00%')
+#1 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager.php(190): Updraft_Smush_Manager_Commands->get_ui_update(Array)
+#2 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(308): Updraft_Smush_Manager->updraft_smush_ajax('')
+#3 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\maxim\Local Sites\projet-7\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_updraft...')
+#6 {main}
+  thrown dans C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php à la ligne 175
+
+2023-08-06T09:04:14+00:00 CRITICAL Uncaught ArgumentCountError: 5 arguments are required, 4 given in C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php:175
+Stack trace:
+#0 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php(175): sprintf('Depuis la derni...', 0, '0 bytes', '1.00%')
+#1 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager.php(190): Updraft_Smush_Manager_Commands->get_ui_update(Array)
+#2 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(308): Updraft_Smush_Manager->updraft_smush_ajax('')
+#3 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\maxim\Local Sites\projet-7\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_updraft...')
+#6 {main}
+  thrown dans C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php à la ligne 175
+
+2023-08-06T09:04:23+00:00 CRITICAL Uncaught ArgumentCountError: 5 arguments are required, 4 given in C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php:175
+Stack trace:
+#0 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php(175): sprintf('Depuis la derni...', 0, '0 bytes', '1.00%')
+#1 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager.php(190): Updraft_Smush_Manager_Commands->get_ui_update(Array)
+#2 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(308): Updraft_Smush_Manager->updraft_smush_ajax('')
+#3 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\maxim\Local Sites\projet-7\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_updraft...')
+#6 {main}
+  thrown dans C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php à la ligne 175
+
+2023-08-06T09:04:51+00:00 CRITICAL Uncaught ArgumentCountError: 5 arguments are required, 4 given in C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php:175
+Stack trace:
+#0 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php(175): sprintf('Depuis la derni...', 0, '0 bytes', '1.00%')
+#1 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager.php(190): Updraft_Smush_Manager_Commands->get_ui_update(Array)
+#2 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(308): Updraft_Smush_Manager->updraft_smush_ajax('')
+#3 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\maxim\Local Sites\projet-7\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_updraft...')
+#6 {main}
+  thrown dans C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php à la ligne 175
+
+2023-08-06T09:05:03+00:00 CRITICAL Uncaught ArgumentCountError: 5 arguments are required, 4 given in C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php:175
+Stack trace:
+#0 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php(175): sprintf('Depuis la derni...', 0, '0 bytes', '1.00%')
+#1 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager.php(190): Updraft_Smush_Manager_Commands->get_ui_update(Array)
+#2 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(308): Updraft_Smush_Manager->updraft_smush_ajax('')
+#3 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\maxim\Local Sites\projet-7\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_updraft...')
+#6 {main}
+  thrown dans C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php à la ligne 175
+
+2023-08-06T09:05:31+00:00 CRITICAL Uncaught ArgumentCountError: 5 arguments are required, 4 given in C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php:175
+Stack trace:
+#0 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php(175): sprintf('Depuis la derni...', 0, '0 bytes', '1.00%')
+#1 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager.php(190): Updraft_Smush_Manager_Commands->get_ui_update(Array)
+#2 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(308): Updraft_Smush_Manager->updraft_smush_ajax('')
+#3 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\maxim\Local Sites\projet-7\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_updraft...')
+#6 {main}
+  thrown dans C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php à la ligne 175
+
+2023-08-06T09:06:00+00:00 CRITICAL Uncaught ArgumentCountError: 5 arguments are required, 4 given in C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-task.php:293
+Stack trace:
+#0 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-task.php(293): sprintf('Le fichier a \xC3\xA9...', '910 bytes', '910 bytes', 0.0)
+#1 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\vendor\team-updraft\common-libs\src\updraft-tasks\class-updraft-task.php(292): Updraft_Smush_Task->complete()
+#2 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\vendor\team-updraft\common-libs\src\updraft-tasks\class-updraft-task-manager.php(53): Updraft_Task_1_2->attempt(60)
+#3 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager.php(315): Updraft_Task_Manager_1_4->process_task(Object(Re_Smush_It_Task))
+#4 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php(88): Updraft_Smush_Manager->compress_single_image('856', Array, 'resmushit')
+#5 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager.php(190): Updraft_Smush_Manager_Commands->compress_single_image(Array)
+#6 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(308): Updraft_Smush_Manager->updraft_smush_ajax('')
+#7 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\Users\maxim\Local Sites\projet-7\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_updraft...')
+#10 {main}
+  thrown dans C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-task.php à la ligne 293
+
+2023-08-06T09:06:06+00:00 CRITICAL Uncaught ArgumentCountError: 5 arguments are required, 4 given in C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php:175
+Stack trace:
+#0 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php(175): sprintf('Depuis la derni...', 0, '0 bytes', '1.00%')
+#1 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager.php(190): Updraft_Smush_Manager_Commands->get_ui_update(Array)
+#2 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(308): Updraft_Smush_Manager->updraft_smush_ajax('')
+#3 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\maxim\Local Sites\projet-7\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_updraft...')
+#6 {main}
+  thrown dans C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php à la ligne 175
+
+2023-08-06T09:06:12+00:00 CRITICAL Uncaught ArgumentCountError: 5 arguments are required, 4 given in C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php:175
+Stack trace:
+#0 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php(175): sprintf('Depuis la derni...', 0, '0 bytes', '1.00%')
+#1 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager.php(190): Updraft_Smush_Manager_Commands->get_ui_update(Array)
+#2 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(308): Updraft_Smush_Manager->updraft_smush_ajax('')
+#3 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\maxim\Local Sites\projet-7\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_updraft...')
+#6 {main}
+  thrown dans C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php à la ligne 175
+
+2023-08-06T17:46:37+00:00 CRITICAL Uncaught ArgumentCountError: 5 arguments are required, 4 given in C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php:175
+Stack trace:
+#0 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php(175): sprintf('Depuis la derni...', 0, '0 bytes', '1.00%')
+#1 C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager.php(190): Updraft_Smush_Manager_Commands->get_ui_update(Array)
+#2 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(308): Updraft_Smush_Manager->updraft_smush_ajax('')
+#3 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\Users\maxim\Local Sites\projet-7\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\Users\maxim\Local Sites\projet-7\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_updraft...')
+#6 {main}
+  thrown dans C:\Users\maxim\Local Sites\projet-7\app\public\wp-content\plugins\wp-optimize\includes\class-updraft-smush-manager-commands.php à la ligne 175
+

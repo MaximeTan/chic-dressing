@@ -1,0 +1,2 @@
+2023/08/06 11:01:36 [error] 9588#4600: *208 access forbidden by rule, client: 127.0.0.1, server: , request: "GET /wp-content/uploads/wpo/server-signature/on/test.php HTTP/1.1", host: "localhost:10016"
+2023/08/06 11:01:37 [error] 9588#4600: *209 access forbidden by rule, client: 127.0.0.1, server: , request: "GET /wp-content/uploads/wpo/server-signature/on/test.php HTTP/1.1", host: "localhost:10016"
